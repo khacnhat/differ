@@ -20,7 +20,7 @@ services:
       context: .
       args:
         - SHA
-    image: cyberdojo/differ
+    image: khacnhat/differ-dojo
     container_name: test-differ-server
     volumes:
       - ./test_server:/app/test:ro
